@@ -1,0 +1,807 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Resume and portfolio of Syed Ghous Mohiuddin, frontend focused Software Engineer building React applications and Shopify Plus integrations."
+    />
+    <title>Syed Ghous Mohiuddin | Resume &amp; Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300..500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <div class="atmosphere" aria-hidden="true"></div>
+
+    <header class="site-header" id="top">
+      <nav class="navbar" aria-label="Primary navigation">
+        <a class="nav-brand" href="#home">Syed Ghous Mohiuddin</a>
+
+        <button
+          class="nav-toggle"
+          id="nav-toggle"
+          type="button"
+          aria-controls="nav-menu"
+          aria-expanded="false"
+          aria-label="Open navigation menu"
+        >
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+        </button>
+
+        <ul class="nav-menu" id="nav-menu">
+          <li><a class="nav-link" href="#home">Home</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#education">Education</a></li>
+          <li><a class="nav-link" href="#skills">Skills</a></li>
+          <li><a class="nav-link" href="#experience">Experience</a></li>
+          <li><a class="nav-link" href="#projects">Projects</a></li>
+          <li><a class="nav-link" href="#certifications">Certifications</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+          <li>
+            <button
+              class="theme-toggle"
+              id="theme-toggle"
+              type="button"
+              aria-label="Switch to light mode"
+              title="Toggle dark / light mode"
+            >
+              <span class="theme-icon theme-icon-to-light" aria-hidden="true"
+                >Light</span
+              >
+              <span class="theme-icon theme-icon-to-dark" aria-hidden="true"
+                >Dark</span
+              >
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="section hero" id="home" aria-labelledby="hero-heading">
+        <div class="container hero-layout">
+          <div class="hero-copy">
+            <p class="eyebrow hero-reveal" data-reveal>Software Engineer</p>
+            <h1 id="hero-heading" class="display hero-reveal" data-reveal>
+              Syed Ghous Mohiuddin
+            </h1>
+            <p class="lead hero-reveal" data-reveal>
+              Frontend focused Software Engineer building production React apps
+              and Shopify Plus integrations.
+            </p>
+            <p class="hero-intro hero-reveal" data-reveal>
+              Hands on experience shipping complex, state driven UIs, Shopify
+              theme systems, and open source tooling, including two published
+              npm packages. Based in Karachi, Pakistan.
+            </p>
+            <div class="hero-actions hero-reveal" data-reveal>
+              <a class="btn btn-primary" href="#projects">View My Projects</a>
+              <a
+                class="btn btn-glass"
+                id="download-cv"
+                href="assets/Syed_Ghous_Mohiuddin_CV.docx"
+                download="Syed_Ghous_Mohiuddin_CV.docx"
+              >
+                Download CV
+              </a>
+            </div>
+          </div>
+
+          <figure class="hero-portrait hero-reveal" data-reveal>
+            <div class="portrait-glow" aria-hidden="true"></div>
+            <img
+              src="assets/profile.jpg"
+              alt="Profile photo of Syed Ghous Mohiuddin"
+              width="400"
+              height="480"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <section
+        class="section section-band-a"
+        id="about"
+        aria-labelledby="about-heading"
+      >
+        <div class="container">
+          <header class="section-header" data-reveal>
+            <p class="eyebrow">About</p>
+            <h2 id="about-heading">A short read on who I am</h2>
+            <p class="section-lead">
+              Background, interests, and the direction I am working toward.
+            </p>
+          </header>
+
+          <div class="card-grid card-grid-3">
+            <article class="feature-card" data-reveal>
+              <h3>Biography</h3>
+              <p>
+                Frontend focused software engineer with hands on experience
+                building production grade React applications, Shopify Plus
+                integrations, and complex state driven UIs. Architected and
+                shipped multi step systems from scratch, and published two open
+                source npm packages that demonstrate ownership of tooling beyond
+                day to day feature work.
+              </p>
+            </article>
+            <article class="feature-card" data-reveal>
+              <h3>Career Interests</h3>
+              <p>
+                Frontend architecture, React ecosystems, Shopify Plus and theme
+                development, complex form and validation flows, localization
+                (including LTR and RTL), and building reusable developer
+                tooling.
+              </p>
+            </article>
+            <article class="feature-card" data-reveal>
+              <h3>Professional Goals</h3>
+              <p>
+                Keep shipping production frontend systems with clear ownership,
+                from requirements discovery with clients through polished UI,
+                API integration, and maintainable architecture, while growing as
+                a software engineer through open source and deeper platform
+                work.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section section-band-b"
+        id="education"
+        aria-labelledby="education-heading"
+      >
+        <div class="container">
+          <header class="section-header" data-reveal>
+            <p class="eyebrow">Education</p>
+            <h2 id="education-heading">Where I study</h2>
+            <p class="section-lead">Academic background and timeline.</p>
+          </header>
+
+          <div class="education-stack">
+            <article class="spotlight-card" data-reveal>
+              <div class="spotlight-main">
+                <h3>Iqra University</h3>
+                <p class="spotlight-accent">BS Computer Science</p>
+              </div>
+              <div class="spotlight-meta">
+                <div>
+                  <p class="meta-label">Status</p>
+                  <p class="meta-value">In progress</p>
+                </div>
+                <div>
+                  <p class="meta-label">Academic dates</p>
+                  <p class="meta-value">2024 to 2028 (Expected)</p>
+                </div>
+              </div>
+            </article>
+
+            <article class="spotlight-card" data-reveal>
+              <div class="spotlight-main">
+                <h3>Commecs College</h3>
+                <p class="spotlight-accent">Intermediate in Pre Engineering</p>
+              </div>
+              <div class="spotlight-meta">
+                <div>
+                  <p class="meta-label">Completed</p>
+                  <p class="meta-value">Pre Engineering</p>
+                </div>
+                <div>
+                  <p class="meta-label">Academic dates</p>
+                  <p class="meta-value">2020 to 2022</p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section section-band-a"
+        id="skills"
+        aria-labelledby="skills-heading"
+      >
+        <div class="container">
+          <header class="section-header" data-reveal>
+            <p class="eyebrow">Skills</p>
+            <h2 id="skills-heading">Tools I work with</h2>
+            <p class="section-lead">
+              Languages, frameworks, Shopify stack, and day to day tooling.
+            </p>
+          </header>
+
+          <div class="card-grid card-grid-2">
+            <article class="feature-card" data-reveal>
+              <h3>Languages &amp; Frameworks</h3>
+              <ul class="skill-list">
+                <li>
+                  <div class="skill-label">
+                    <span>JavaScript / TypeScript</span>
+                    <span class="skill-percent">90%</span>
+                  </div>
+                  <div
+                    class="skill-bar"
+                    role="progressbar"
+                    aria-valuenow="90"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    aria-label="JavaScript and TypeScript proficiency"
+                  >
+                    <div class="skill-bar-fill" data-skill-level="90"></div>
+                  </div>
+                </li>
+                <li>
+                  <div class="skill-label">
+                    <span>React.js (JSX &amp; TSX)</span>
+                    <span class="skill-percent">90%</span>
+                  </div>
+                  <div
+                    class="skill-bar"
+                    role="progressbar"
+                    aria-valuenow="90"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    aria-label="React.js proficiency"
+                  >
+                    <div class="skill-bar-fill" data-skill-level="90"></div>
+                  </div>
+                </li>
+                <li>
+                  <div class="skill-label">
+                    <span>Node.js</span>
+                    <span class="skill-percent">75%</span>
+                  </div>
+                  <div
+                    class="skill-bar"
+                    role="progressbar"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    aria-label="Node.js proficiency"
+                  >
+                    <div class="skill-bar-fill" data-skill-level="75"></div>
+                  </div>
+                </li>
+              </ul>
+              <div class="pill-row" aria-label="Related skills">
+                <span class="pill">Redux Toolkit</span>
+                <span class="pill">Context API</span>
+                <span class="pill">Zod</span>
+              </div>
+            </article>
+
+            <article class="feature-card" data-reveal>
+              <h3>Web &amp; UI</h3>
+              <ul class="skill-list">
+                <li>
+                  <div class="skill-label">
+                    <span>HTML5 / CSS3</span>
+                    <span class="skill-percent">90%</span>
+                  </div>
+                  <div
+                    class="skill-bar"
+                    role="progressbar"
+                    aria-valuenow="90"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    aria-label="HTML and CSS proficiency"
+                  >
+                    <div class="skill-bar-fill" data-skill-level="90"></div>
+                  </div>
+                </li>
+                <li>
+                  <div class="skill-label">
+                    <span>Tailwind CSS</span>
+                    <span class="skill-percent">85%</span>
+                  </div>
+                  <div
+                    class="skill-bar"
+                    role="progressbar"
+                    aria-valuenow="85"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    aria-label="Tailwind CSS proficiency"
+                  >
+                    <div class="skill-bar-fill" data-skill-level="85"></div>
+                  </div>
+                </li>
+                <li>
+                  <div class="skill-label">
+                    <span>Shopify Polaris / Framer Motion</span>
+                    <span class="skill-percent">80%</span>
+                  </div>
+                  <div
+                    class="skill-bar"
+                    role="progressbar"
+                    aria-valuenow="80"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    aria-label="Shopify Polaris and Framer Motion proficiency"
+                  >
+                    <div class="skill-bar-fill" data-skill-level="80"></div>
+                  </div>
+                </li>
+              </ul>
+              <div class="pill-row" aria-label="UI skills">
+                <span class="pill">Multi step forms</span>
+                <span class="pill">LTR and RTL layouts</span>
+                <span class="pill">Responsive design</span>
+              </div>
+            </article>
+
+            <article class="feature-card" data-reveal>
+              <h3>Shopify</h3>
+              <div class="pill-row" aria-label="Shopify skills">
+                <span class="pill">Shopify Liquid</span>
+                <span class="pill">Shopify Plus</span>
+                <span class="pill">Theme development</span>
+                <span class="pill">React in Shopify</span>
+                <span class="pill">Product configurators</span>
+                <span class="pill">Shopify apps</span>
+              </div>
+            </article>
+
+            <article class="feature-card" data-reveal>
+              <h3>Developer Tools</h3>
+              <div class="pill-row" aria-label="Developer tools">
+                <span class="pill">Git</span>
+                <span class="pill">REST APIs</span>
+                <span class="pill">AST tooling</span>
+                <span class="pill">npm publishing</span>
+                <span class="pill">Agile and Scrum</span>
+                <span class="pill">Jira</span>
+                <span class="pill">Trello</span>
+                <span class="pill">Slack</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section section-band-b"
+        id="experience"
+        aria-labelledby="experience-heading"
+      >
+        <div class="container">
+          <header class="section-header" data-reveal>
+            <p class="eyebrow">Experience</p>
+            <h2 id="experience-heading">Practical work so far</h2>
+            <p class="section-lead">
+              Roles at SolCoders, from internship through software engineer.
+            </p>
+          </header>
+
+          <div class="experience-stack">
+            <article class="experience-card" data-reveal>
+              <header class="experience-header">
+                <div>
+                  <h3>Software Engineer</h3>
+                  <p class="experience-org">SolCoders</p>
+                </div>
+                <p class="experience-dates">Oct 2026 to Present</p>
+              </header>
+              <ul class="experience-bullets">
+                <li>
+                  Continue working on the Spiegelmax Mirror Configurator
+                  (Shopify Plus and React) under an active client retainer.
+                </li>
+                <li>
+                  Building Shopify public themes using Liquid, JavaScript, CSS,
+                  and Shopify Online Store 2.0.
+                </li>
+                <li>
+                  Developing Shopify apps, including custom app functionality
+                  and merchant facing interfaces.
+                </li>
+                <li>
+                  Working across React.js, TypeScript, JavaScript, Shopify, and
+                  frontend architecture.
+                </li>
+              </ul>
+            </article>
+
+            <article class="experience-card" data-reveal>
+              <header class="experience-header">
+                <div>
+                  <h3>Associate Software Engineer</h3>
+                  <p class="experience-org">SolCoders</p>
+                </div>
+                <p class="experience-dates">Dec 2024 to Sep 2026</p>
+              </header>
+              <ul class="experience-bullets">
+                <li>
+                  Own end to end frontend architecture for internal HRMS and CRM
+                  platforms, building from scratch with React.js, Redux Toolkit,
+                  Context API, and Zod for runtime schema validation across
+                  complex, multi step data flows.
+                </li>
+                <li>
+                  Designed progressive multi step form workflows with step gated
+                  validation logic, enforcing full data integrity before
+                  submission and preventing incomplete records from entering
+                  production systems.
+                </li>
+                <li>
+                  Engineered a novel React in Shopify Plus (Liquid) integration,
+                  mounted a full React application directly on the product page
+                  in place of the native Add to Cart flow, a first of its kind
+                  implementation for the team.
+                </li>
+                <li>
+                  Led a production grade Shopify product configurator from
+                  client discovery through UI, APIs, and business logic.
+                  Supports 75 templates, 10 to 60 SKUs per template, real time
+                  pricing, live dimensional and shape previews, and DE to
+                  EN/FR/NL localization. Remained on active retainer for ongoing
+                  support and feature delivery.
+                </li>
+                <li>
+                  Extended localization work beyond Mirror Configurator to EN to
+                  AR, handling both content translation and full LTR and RTL
+                  layout conversion.
+                </li>
+                <li>
+                  Built a rich nested add on and options system with conditional
+                  disabling and contextual inline validation, plus a cart
+                  editing flow that repopulates and updates existing Shopify
+                  cart line items in place.
+                </li>
+                <li>
+                  Developed a custom React admin panel for managing saved
+                  customer configurations, GDPR compliant opt in capture, and
+                  customer follow up tracking.
+                </li>
+                <li>
+                  Delivered multiple Shopify theme customizations using Shopify
+                  Liquid and Shopify Polaris, including admin facing panel UIs.
+                  Completed self directed upskilling in ground up Shopify theme
+                  development.
+                </li>
+                <li>
+                  Act as primary client facing frontend contact for select
+                  engagements, running requirement gathering calls and
+                  translating ambiguous or evolving specs into working UI and UX
+                  independently.
+                </li>
+              </ul>
+            </article>
+
+            <article class="experience-card" data-reveal>
+              <header class="experience-header">
+                <div>
+                  <h3>Software Engineer Intern</h3>
+                  <p class="experience-org">SolCoders</p>
+                </div>
+                <p class="experience-dates">Aug 2024 to Nov 2024</p>
+              </header>
+              <ul class="experience-bullets">
+                <li>
+                  Entered the program with no prior web development background,
+                  completed an accelerated self paced track through semantic
+                  HTML5, CSS3, and JavaScript before progressing into React.js
+                  (Hooks, Context API) within the internship period.
+                </li>
+                <li>
+                  Selected as de facto frontend team lead among a cohort of 4
+                  frontend interns following a timed evaluation project (HTML,
+                  CSS, and JS ecommerce build from Figma specs). Took ownership
+                  of pacing, mentoring, and unblocking peers on the floor.
+                </li>
+                <li>
+                  Served as primary frontend contributor on an internal HR
+                  Management System (HRMS) build, implementing role based access
+                  control (RBAC), single user level permissions, multi screen
+                  role conditional UI, and real time WebSocket based
+                  notifications.
+                </li>
+                <li>
+                  Built and iterated multiple production style projects across
+                  increasing complexity, from static HTML and CSS work to React
+                  based portfolios using Context API and Hooks.
+                </li>
+                <li>
+                  Practiced Agile aligned delivery pace, translating task
+                  requirements into working frontend components under senior
+                  developer review.
+                </li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section section-band-a"
+        id="projects"
+        aria-labelledby="projects-heading"
+      >
+        <div class="container">
+          <header class="section-header" data-reveal>
+            <p class="eyebrow">Projects</p>
+            <h2 id="projects-heading">Selected work</h2>
+            <p class="section-lead">
+              Production Shopify work and open source npm packages.
+            </p>
+          </header>
+
+          <div class="card-grid card-grid-3">
+            <article class="feature-card project-card" data-reveal>
+              <h3>Spiegelmax Mirror Configurator</h3>
+              <p>
+                Production grade product configurator mounted inside a Shopify
+                Plus Liquid theme, replacing the default cart flow. Supports 71
+                templates, mm precision dimension inputs, real time pricing,
+                live dynamic shape previews, nested add on options, cart
+                editing, and DE to EN/FR/NL localization, backed by a custom
+                admin panel with GDPR compliant saved configurations. Remain on
+                active retainer for ongoing support and feature development.
+              </p>
+              <div class="pill-row" aria-label="Technologies used">
+                <span class="pill">Shopify Plus</span>
+                <span class="pill">React</span>
+                <span class="pill">Liquid</span>
+              </div>
+              <a
+                class="text-link"
+                href="https://spiegelmax.de/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View live site
+              </a>
+            </article>
+
+            <article class="feature-card project-card" data-reveal>
+              <h3>import pilot</h3>
+              <p>
+                Published an AST based, Git aware CLI that automatically detects
+                and removes unused imports across JavaScript and TypeScript
+                codebases, eliminating manual import cleanup after refactors.
+              </p>
+              <div class="pill-row" aria-label="Technologies used">
+                <span class="pill">Node.js</span>
+                <span class="pill">AST</span>
+                <span class="pill">TypeScript</span>
+                <span class="pill">npm</span>
+              </div>
+              <a
+                class="text-link"
+                href="https://www.npmjs.com/package/import-pilot"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View on npm
+              </a>
+            </article>
+
+            <article class="feature-card project-card" data-reveal>
+              <h3>mini rte</h3>
+              <p>
+                Built and published a minimal, zero dependency rich text editor
+                for React using the Selection and Range API, with a hand rolled
+                HTML to Markdown serializer for lightweight, dependency free
+                integration.
+              </p>
+              <div class="pill-row" aria-label="Technologies used">
+                <span class="pill">React</span>
+                <span class="pill">Selection API</span>
+                <span class="pill">npm</span>
+              </div>
+              <a
+                class="text-link"
+                href="https://www.npmjs.com/package/mini-rte"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View on npm
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section section-band-b"
+        id="certifications"
+        aria-labelledby="certifications-heading"
+      >
+        <div class="container">
+          <header class="section-header" data-reveal>
+            <p class="eyebrow">Certifications</p>
+            <h2 id="certifications-heading">Achievements worth noting</h2>
+            <p class="section-lead">Courses and credentials from the CV.</p>
+          </header>
+
+          <ul class="row-list">
+            <li class="row-item" data-reveal>
+              <div class="row-main">
+                <h3>
+                  Shopify Theme Development: Online Store 3.0 + TailwindCSS
+                </h3>
+                <p>Theme development for Online Store 3.0 with Tailwind CSS.</p>
+              </div>
+              <p class="row-meta">Udemy</p>
+            </li>
+            <li class="row-item" data-reveal>
+              <div class="row-main">
+                <h3>MERN Stack Development</h3>
+                <p>
+                  Full stack development with MongoDB, Express, React, and
+                  Node.js.
+                </p>
+              </div>
+              <p class="row-meta">KFP</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section
+        class="section section-band-a"
+        id="contact"
+        aria-labelledby="contact-heading"
+      >
+        <div class="container">
+          <header class="section-header" data-reveal>
+            <p class="eyebrow">Contact</p>
+            <h2 id="contact-heading">Get in touch</h2>
+            <p class="section-lead">
+              Based in Karachi, Pakistan. Use the links or the form below. The
+              form validates in the browser, then sends your message through
+              Formspree.
+            </p>
+          </header>
+
+          <div class="contact-layout">
+            <div class="contact-panel" data-reveal>
+              <h3>Direct links</h3>
+              <ul class="contact-list">
+                <li>
+                  <span class="meta-label">Email</span>
+                  <a href="mailto:sghous081@gmail.com">sghous081@gmail.com</a>
+                </li>
+                <li>
+                  <span class="meta-label">Phone</span>
+                  <a href="tel:+923332797982">+92 333 2797982</a>
+                </li>
+                <li>
+                  <span class="meta-label">GitHub</span>
+                  <a
+                    href="https://github.com/ghous-12"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >github.com/ghous-12</a
+                  >
+                </li>
+                <li>
+                  <span class="meta-label">LinkedIn</span>
+                  <a
+                    href="https://www.linkedin.com/in/syed-ghous-dev/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >linkedin.com/in/syed-ghous-dev</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <form
+              class="contact-form"
+              id="contact-form"
+              action="https://formspree.io/f/mvkknygj"
+              method="POST"
+              novalidate
+              data-reveal
+            >
+              <div class="form-group">
+                <label for="contact-name">Name</label>
+                <input
+                  type="text"
+                  id="contact-name"
+                  name="name"
+                  autocomplete="name"
+                  placeholder="Your name"
+                  required
+                  aria-required="true"
+                  aria-describedby="name-error"
+                />
+                <p class="form-error" id="name-error" role="alert" hidden></p>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-email">Email</label>
+                <input
+                  type="email"
+                  id="contact-email"
+                  name="email"
+                  autocomplete="email"
+                  placeholder="you@example.com"
+                  required
+                  aria-required="true"
+                  aria-describedby="email-error"
+                />
+                <p class="form-error" id="email-error" role="alert" hidden></p>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message">Message</label>
+                <textarea
+                  id="contact-message"
+                  name="message"
+                  rows="5"
+                  placeholder="Write a short message"
+                  required
+                  aria-required="true"
+                  aria-describedby="message-error"
+                ></textarea>
+                <p
+                  class="form-error"
+                  id="message-error"
+                  role="alert"
+                  hidden
+                ></p>
+              </div>
+
+              <button class="btn btn-primary" type="submit">
+                Send Message
+              </button>
+              <p
+                class="form-feedback"
+                id="form-feedback"
+                role="status"
+                aria-live="polite"
+                hidden
+              ></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p>
+          &copy; <span id="footer-year"></span> Syed Ghous Mohiuddin. All rights
+          reserved.
+        </p>
+        <ul class="footer-social" aria-label="Social links">
+          <li>
+            <a
+              href="https://github.com/ghous-12"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/syed-ghous-dev/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >LinkedIn</a
+            >
+          </li>
+          <li>
+            <a href="mailto:sghous081@gmail.com">Email</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
